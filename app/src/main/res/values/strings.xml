@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FinanceLord</string>
+    <string name="app_name">Finia</string>
 
     <string name="transaction_title">Transaction</string>
     <string name="budget_title">Budget</string>
