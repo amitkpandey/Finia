@@ -22,8 +22,8 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
-import protect.Finia.BudgetUtils.BudgetDatabaseHelper;
-import protect.Finia.BudgetUtils.BudgetInputWidgets;
+import protect.Finia.BudgetModule.BudgetDatabaseHelper;
+import protect.Finia.BudgetModule.BudgetInputWidgets;
 import protect.Finia.Communicators.CalendarDateBroadcast;
 import protect.Finia.Database.BudgetsType;
 import protect.Finia.R;

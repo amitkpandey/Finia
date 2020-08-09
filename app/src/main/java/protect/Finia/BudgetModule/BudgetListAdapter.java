@@ -1,4 +1,4 @@
-package protect.Finia.BudgetUtils;
+package protect.Finia.BudgetModule;
 
 import android.content.Context;
 import android.content.res.ColorStateList;

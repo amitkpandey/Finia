@@ -23,7 +23,7 @@ import protect.Finia.DAOs.LiabilitiesValueDao;
 import protect.Finia.DAOs.ReportItemInfoDao;
 import protect.Finia.Database.AssetsType;
 import protect.Finia.Database.AssetsValue;
-import protect.Finia.Database.FinanceLordDatabase;
+import protect.Finia.Database.FiniaDatabase;
 import protect.Finia.Database.LiabilitiesType;
 import protect.Finia.Database.LiabilitiesValue;
 import protect.Finia.NetWorthPastReportsList.PastReportsAdapter;
@@ -50,7 +50,7 @@ public class NetWorthActivity extends AppCompatActivity {
     private  boolean initialize = true;
     private List<NetWorthCardsDataModel> netWorthCardsDataModels = new ArrayList<>();
     private List<ReportItemsDataModel> reportItemsDataModels = new ArrayList<>();
-    private FinanceLordDatabase database = FinanceLordDatabase.getInstance(NetWorthActivity.this);
+    private FiniaDatabase database = FiniaDatabase.getInstance(NetWorthActivity.this);
 
     /**
      * Create and initialize the activity.

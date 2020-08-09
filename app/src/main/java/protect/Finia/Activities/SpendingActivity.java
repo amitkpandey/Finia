@@ -17,11 +17,11 @@ import java.util.concurrent.Executors;
 import protect.Finia.DAOs.BudgetsTypeDao;
 import protect.Finia.DAOs.TransactionsDao;
 import protect.Finia.Database.BudgetsType;
-import protect.Finia.Database.FinanceLordDatabase;
+import protect.Finia.Database.FiniaDatabase;
 import protect.Finia.R;
-import protect.Finia.SpendingUtils.GroupedSpending;
-import protect.Finia.SpendingUtils.MonthlyTotalSpending;
-import protect.Finia.SpendingUtils.SpendingListAdapter;
+import protect.Finia.SpendingModule.GroupedSpending;
+import protect.Finia.SpendingModule.MonthlyTotalSpending;
+import protect.Finia.SpendingModule.SpendingListAdapter;
 
 /**
  * The activity that displayed the list of spending report to the user.
@@ -69,7 +69,7 @@ public class SpendingActivity extends AppCompatActivity {
         Executors.newSingleThreadExecutor().execute(new Runnable() {
             @Override
             public void run() {
-                FinanceLordDatabase database = FinanceLordDatabase.getInstance(SpendingActivity.this);
+                FiniaDatabase database = FiniaDatabase.getInstance(SpendingActivity.this);
                 TransactionsDao transactionsDao = database.transactionsDao();
                 BudgetsTypeDao budgetsTypeDao = database.budgetsTypeDao();
 

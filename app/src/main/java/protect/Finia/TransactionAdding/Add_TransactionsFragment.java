@@ -26,8 +26,8 @@ import protect.Finia.R;
 import protect.Finia.TimeUtils.CalendarDialog;
 import protect.Finia.TimeUtils.TimeProcessor;
 import protect.Finia.Activities.TransactionAddActivity;
-import protect.Finia.TransactionUtils.TransactionDatabaseHelper;
-import protect.Finia.TransactionUtils.TransactionInputWidgets;
+import protect.Finia.TransactionModule.TransactionDatabaseHelper;
+import protect.Finia.TransactionModule.TransactionInputWidgets;
 import protect.Finia.ViewModels.BudgetTypesViewModel;
 
 /**
